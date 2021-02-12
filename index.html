@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Test-Game</title>
+  <link href="css/style-min.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet"> </head>
+
+<body>
+  <header> </header>
+  <main>
+    <div class="main-wrap">
+      <div class="game-field block">
+        <div class="woman"> <img src="img/player.png" class="woman-move" alt="player-icon" width="21" height="69"> </div>
+        <div class="game-menu">
+          <div class="players-menu">
+            <div class="slider">
+              <div class="slider-row">
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button woman-icon"><img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/male.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+                <button class="profile-button man-icon"> <img src="img/female.png" width="50" height="50" alt="man-icon" class="profile-image"> </button>
+              </div>
+              <button class="slider-prev arrow-left"></button>
+              <button class="slider-next arrow-right"></button>
+            </div>
+          </div>
+          <button class="chat-button"></button>
+          <button class="to-university-button">В универ</button>
+          <button class="mail-button"></button>
+          <button class="rating-button"></button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer> </footer>
+  <div class="window-wrap">
+    <div class="tabs"> <span class="title-window-text">
+          <span class="rating-text">Рейтинг игроков</span> </span>
+      <button class="exit-button"></button>
+      <input class="button-one" type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+      <label for="tab-btn-1" class="page-one">Недельный</label>
+      <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+      <label for="tab-btn-2" class="page-two">Общий</label>
+      <div id="content-1">
+        <div class="rating-title-down">
+          <h2 class="place-title">Место</h2>
+          <h2 class="name-title">Имя Фамилия</h2>
+          <h2 class="exp-title">Опыт</h2> </div>
+        <div class="week-text"> </div>
+      </div>
+      <div id="content-2">
+        <div class="rating-title-down">
+          <h2 class="place-title">Место</h2>
+          <h2 class="name-title">Имя Фамилия</h2>
+          <h2 class="exp-title">Опыт</h2> </div>
+        <div class="main-text"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="gray-wall"></div>
+  <script src="js/data.js"></script>
+  <script src="js/gamescript.js"></script>
+</body>
+
+</html>
